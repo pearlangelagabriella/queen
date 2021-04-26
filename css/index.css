@@ -13,14 +13,20 @@ img.banner {
     color: rgb(212, 202, 108);
     text-transform: uppercase;
     float: left;
+    text-decoration: none;
 }
 .nav-bar {
     background-color: rgb(104, 104, 170);
-    display: inline-block;
 }
 .menu {
     list-style-type: none;
     height: 60px;
+}
+.menu > li {
+    display: inline;
+    float:right;
+    margin:9px;
+    padding:12px;
 }
 .menu > li > a {
     text-decoration: none;
