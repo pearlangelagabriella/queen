@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Code Queen - Restaurant</title>
+    <link rel="stylesheet" href= "./css/index.css">
+</head>
+    <header>
+        <nav class="nav-bar">
+            <ul class="menu">
+                <li class="menu-item">
+                    <a href="#" id="logo"> Code queen </a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" > About </a>
+                </li>
+                <li class="menu-item">
+                    <a href="#" > Contact Us </a>
+                </li>
+  </header>
+<body>
+    <img class="banner" src="image/food.jpg" alt="picture of food">
+        <div class="feedback-form">
+            <h4>Please leave our feedback below</h4>
+            <form id="reviewform" method="POST" action="./index.html">
+                <div input="input-element">
+                    <label for="full_name">Full Name:</label>
+                    <input type="text" placeholder="Pearl" id="full_name" name="full_name">
+                </div>
+                <div>
+                    <label for="review">Reviews:</label>
+                    <textarea name="review" id="review" cols="30" rows="5"></textarea>
+                </div>
+                <input type="submit" value="submit">
+            </form>
+        </div>
+        <div class="feed">
+            <h4>Restaurant reviews</h4>
+            <div class="review">
+                <h4 class="reviewer">Angela</h4>
+                <p class="review-text">
+                    Add some other foods or meals to the menu. 
+                </p>
+            </div>
+                <div class="review">
+                    <h4 class="reviewer">Gab</h4>
+                    <p class="review-text">
+                        Add some other foods or meals to the menu. 
+                    </p>
+                </div>
+                 <div class="review">
+                        <h4 class="reviewer">Sof</h4>
+                        <p class="review-text">
+                            Add some other foods or meals to the menu. 
+                        </p>
+                 </div>
+        </div>
+    </div>
+</body>
+</html>
